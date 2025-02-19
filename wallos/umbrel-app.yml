@@ -1,41 +1,43 @@
 manifestVersion: 1
 id: wallos
 category: finance
-name: AdGuard Home
+name: WallOS
 version: "latest"
-tagline: Network-wide software for blocking ads and tracking
+tagline: Subscription management, with graphical support and more.
 description: >-
-  Introduction
-  Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease. Say goodbye to complicated spreadsheets and expensive financial software - Wallos simplifies the process of tracking expenses and helps you gain better control over your financial life.
+  Introduction:
 
-  Features
-  Subscription Management: Keep track of your recurring subscriptions and payments, ensuring you never miss a due date.
-  Category Management: Organize your expenses into customizable categories, enabling you to gain insights into your spending habits.
-  Multi-Currency support: Wallos supports multiple currencies, allowing you to manage your finances in the currency of your choice.
-  Currency Conversion: Integrates with the Fixer API so you can get exchange rates and see all your subscriptions on your main currency.
-  Data Privacy: As a self-hosted application, Wallos ensures that your financial data remains private and secure on your own server.
-  Customization: Tailor Wallos to your needs with customizable categories, currencies, themes and other display options.
-  Sorting Options: Allowing you to view your subscriptions from different perspectives.
-  Logo Search: Wallos can search the web for the logo of your subscriptions if you don't have them available for upload.
-  Mobile view: Wallos on the go.
-  Statistics: Another perspective into your spendings.
-  Notifications: Wallos supports multiple notification methods (email, discord, pushover, telegram, gotify and webhooks). Get notified about your upcoming payments.
-  Multi Language support.
+    Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease. Say goodbye to complicated spreadsheets and expensive financial software - Wallos simplifies the process of tracking expenses and helps you gain better control over your financial life.
+
+  Features:
+
+    Subscription Management: Keep track of your recurring subscriptions and payments, ensuring you never miss a due date.
+    Category Management: Organize your expenses into customizable categories, enabling you to gain insights into your spending habits.
+    Multi-Currency support: Wallos supports multiple currencies, allowing you to manage your finances in the currency of your choice.
+    Currency Conversion: Integrates with the Fixer API so you can get exchange rates and see all your subscriptions on your main currency.
+    Data Privacy: As a self-hosted application, Wallos ensures that your financial data remains private and secure on your own server.
+    Customization: Tailor Wallos to your needs with customizable categories, currencies, themes and other display options.
+    Sorting Options: Allowing you to view your subscriptions from different perspectives.
+    Logo Search: Wallos can search the web for the logo of your subscriptions if you don't have them available for upload.
+    Mobile view: Wallos on the go.
+    Statistics: Another perspective into your spendings.
+    Notifications: Wallos supports multiple notification methods (email, discord, pushover, telegram, gotify and webhooks). Get notified about your upcoming payments.
+    Multi Language support.
 releaseNotes: >-
   2.45.2 (2025-02-05)
-  Bug Fixes:
+    Bug Fixes:
 
-  - bug setting main currency for the first registered user (c43b08a)
+      - bug setting main currency for the first registered user (c43b08a)
 
-  - deprecation message (c43b08a)
+      - deprecation message (c43b08a)
 
-  - subscription progress above 100% for disabled subscriptions (c43b08a)
+      - subscription progress above 100% for disabled subscriptions (c43b08a)
 
-  - typo on czech translation (c43b08a)
+      - typo on czech translation (c43b08a)
 
-  - use first currency on the list of currencies if user has not selected a main currency (c43b08a)
+      - use first currency on the list of currencies if user has not selected a main currency (c43b08a)
 
-  - use gd if imagick is not available (c43b08a)
+      - use gd if imagick is not available (c43b08a)
 
   Full release notes can be found at https://github.com/ellite/Wallos/releases
 developer: WallOS
