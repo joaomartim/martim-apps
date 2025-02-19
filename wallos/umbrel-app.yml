@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: wallos
 category: finance
-name: WallOS
+name: wallos
 version: "latest"
 tagline: Subscription management, with graphical support and more.
 description: >-
