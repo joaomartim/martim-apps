@@ -45,7 +45,7 @@ website: https://github.com/ellite/Wallos
 dependencies: []
 repo: https://github.com/ellite/Wallos
 support: https://github.com/ellite/Wallos/issues
-port: 8282
+ports: "8282:80/tcp"
 gallery:
   - 1.jpg
   - 2.jpg
