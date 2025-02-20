@@ -3,7 +3,7 @@ services:
   app_proxy:
       environment:
         APP_HOST: martim-wallos_web_1
-        APP_PORT: 8282:80/tcp
+        APP_PORT: 8282
         PROXY_AUTH_ADD: "false"
   web:
     container_name: wallos
