@@ -10,7 +10,7 @@ services:
     environment:
       - TZ: 'Atlantic/Madeira'
       - ACTUAL_PORT=8282:80/tcp
-      - ACTUAL_TRUSTED_PROXIES=umbrel.local,
+      - ACTUAL_TRUSTED_PROXIES=umbrel.local,umbrel,
     # Volumes store your data between container upgrades
     volumes:
       - './db:/var/www/html/db'
