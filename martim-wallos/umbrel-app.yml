@@ -2,7 +2,7 @@ manifestVersion: 1
 id: martim-wallos
 name: WallOS
 tagline: Subscription management, with graphical support and more.
-icon: https://raw.githubusercontent.com/ellite/Wallos/main/images/siteicons/wallos.png
+icon: https://imgur.com/ueL8cwN
 category: Finances
 version: "latest"
 port: 8282
@@ -30,10 +30,10 @@ website: https://github.com/ellite/Wallos
 repo: https://github.com/ellite/Wallos
 support: https://github.com/ellite/Wallos/issues
 gallery:
-  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-dashboard-light.png
-  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-dashboard-dark.png
-  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-stats.png
-  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-calendar.png
+  - https://imgur.com/RJB6ynW
+  - https://imgur.com/8aFmpSu
+  - https://imgur.com/Yfu4RU2wallos-stats.png
+  - https://imgur.com/6DyL9Fd
 releaseNotes: >-
   2.45.2 (2025-02-05)
     Bug Fixes:
