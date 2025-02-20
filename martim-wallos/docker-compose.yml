@@ -6,7 +6,6 @@ services:
       APP_PORT: 8282:80/tcp
   web:
     image: bellamy/wallos:latest
-    user: 1000:1000
     restart: unless-stopped
     environment:
       - TZ: 'Atlantic/Madeira'

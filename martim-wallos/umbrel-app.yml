@@ -1,10 +1,11 @@
 manifestVersion: 1
 id: martim-wallos
-category: finance
 name: WallOS
-icon: martim-wallos\wallos.jpg
-version: "latest"
 tagline: Subscription management, with graphical support and more.
+icon: martim-wallos\wallos.jpg
+category: finance
+version: "latest"
+port: 8282:80/tcp
 description: >-
   Introduction:
 
@@ -24,6 +25,15 @@ description: >-
     Statistics: Another perspective into your spendings.
     Notifications: Wallos supports multiple notification methods (email, discord, pushover, telegram, gotify and webhooks). Get notified about your upcoming payments.
     Multi Language support.
+developer: WallOS
+website: https://github.com/ellite/Wallos
+repo: https://github.com/ellite/Wallos
+support: https://github.com/ellite/Wallos/issues
+gallery:
+  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-dashboard-light.png
+  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-dashboard-dark.png
+  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-stats.png
+  - https://github.com/ellite/Wallos/blob/main/screenshots/wallos-calendar.png
 releaseNotes: >-
   2.45.2 (2025-02-05)
     Bug Fixes:
@@ -41,19 +51,9 @@ releaseNotes: >-
       - use gd if imagick is not available (c43b08a)
 
   Full release notes can be found at https://github.com/ellite/Wallos/releases
-developer: João Martim
-website: https://github.com/joaomartim
-dependencies: []
-repo: https://github.com/joaomartim/martim-apps
-support: https://github.com/joaomartim/martim-apps/issues
-ports: "8282:80/tcp"
-gallery:
-  - martim-wallos/1.jpg
-  - martim-wallos/2.jpg
-  - martim-wallos/3.jpg
-  - martim-wallos/4.jpg
+dependencies:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
 submitter: João Martim
-submission: https://github.com/joaomartim/martim-apps
+submission: https://github.com/joaomartim/martim-apps/
