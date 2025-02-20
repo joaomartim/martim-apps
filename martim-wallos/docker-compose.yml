@@ -1,19 +1,14 @@
 version: "3.0"
 services:
-  app_proxy:
+  wallos:
+    container_name: wallos
+    image: bellamy/wallos:latest
+    ports:
+      - "8282:80/tcp"
     environment:
-      APP_HOST: martim-wallos_web_1
-      APP_PORT: 8282:80/tcp
-web:
-  container_name: wallos
-  image: bellamy/wallos:latest
-  user: "1000:1000"
-  ports:
-    - "8282:80/tcp"
-  environment:
-    TZ: 'Atlantic/Madeira'
-  # Volumes store your data between container upgrades
-  volumes:
-    - './db:/var/www/html/db'
-    - './logos:/var/www/html/images/uploads/logos'
-  restart: unless-stopped
+      TZ: 'Atlantic/Madeira'
+    # Volumes store your data between container upgrades
+    volumes:
+      - './db:/var/www/html/db'
+      - './logos:/var/www/html/images/uploads/logos'
+    restart: unless-stopped
