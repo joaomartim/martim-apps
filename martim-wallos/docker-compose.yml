@@ -1,17 +1,16 @@
-version: "3.0"
+version: "3.9"
 services:
   app_proxy:
     environment:
-      APP_HOST: denny-actualbudget_web_1
+      APP_HOST: martim-wallos_web_1
       APP_PORT: 8282
-      PROXY_AUTH_ADD: "false"
   web:
-    container_name: wallos
     image: bellamy/wallos:latest
-    ports:
-      - "8282:80/tcp"
+    user: 1000:1000
     environment:
-      TZ: 'Atlantic/Madeira'
+      - TZ: 'Atlantic/Madeira'
+      - ACTUAL_PORT=5006
+      - ACTUAL_TRUSTED_PROXIES=umbrel.local 
     # Volumes store your data between container upgrades
     volumes:
       - './db:/var/www/html/db'
