@@ -3,13 +3,13 @@ services:
   app_proxy:
     environment:
       APP_HOST: martim-wallos_web_1
-      APP_PORT: 8282:80/tcp
+      APP_PORT: 8282:80
   web:
     image: bellamy/wallos:latest
     restart: unless-stopped
     environment:
       - TZ: 'Atlantic/Madeira'
-      - ACTUAL_PORT=8282:80/tcp
+      - ACTUAL_PORT=8282:80
       - ACTUAL_TRUSTED_PROXIES=umbrel.local,umbrel,
     # Volumes store your data between container upgrades
     volumes:
