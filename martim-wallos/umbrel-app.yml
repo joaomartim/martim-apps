@@ -1,7 +1,8 @@
 manifestVersion: 1
-id: wallos
+id: martim-wallos
 category: finance
 name: WallOS
+icon: martim-wallos\wallos.jpg
 version: "latest"
 tagline: Subscription management, with graphical support and more.
 description: >-
@@ -47,10 +48,10 @@ repo: https://github.com/ellite/Wallos
 support: https://github.com/ellite/Wallos/issues
 ports: "8282:80/tcp"
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+  - martim-wallos\1.jpg
+  - martim-wallos\2.jpg
+  - martim-wallos\3.jpg
+  - martim-wallos\4.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
