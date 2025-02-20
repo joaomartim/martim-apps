@@ -2,7 +2,7 @@ manifestVersion: 1
 id: martim-wallos
 name: WallOS
 tagline: Subscription management, with graphical support and more.
-icon: martim-wallos\wallos.jpg
+icon: https://raw.githubusercontent.com/ellite/Wallos/main/images/siteicons/wallos.png
 category: finance
 version: "latest"
 port: 8282:80/tcp
