@@ -7,7 +7,7 @@ services:
       APP_PORT: 5006
       PROXY_AUTH_ADD: "false"
 
-services:
+web:
   wallos:
     container_name: wallos
     image: bellamy/wallos:latest
