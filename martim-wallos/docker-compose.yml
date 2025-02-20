@@ -1,20 +1,9 @@
-version: "3.0"
+version: "3.9"
 services:
   app_proxy:
     environment:
       APP_HOST: martim-wallos_wallos_1
       APP_PORT: 8282
-  # wallos:
-  #   image: bellamy/wallos:latest
-  #   restart: unless-stopped
-  #   environment:
-  #     - TZ: 'Atlantic/Madeira'
-  #     - ACTUAL_PORT=8282
-  #     - ACTUAL_TRUSTED_PROXIES=umbrel.local,umbrel,
-  #   # Volumes store your data between container upgrades
-  #   volumes:
-  #     - './db:/var/www/html/db'
-  #     - './logos:/var/www/html/images/uploads/logos'
 wallos:
   container_name: wallos
   image: bellamy/wallos:latest
