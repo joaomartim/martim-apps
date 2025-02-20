@@ -8,6 +8,8 @@ services:
   wallos:
     container_name: wallos
     image: bellamy/wallos:latest
+    ports:
+      - "8282:80/tcp"
     environment:
       TZ: 'Atlantic/Madeira'
     # Volumes store your data between container upgrades
