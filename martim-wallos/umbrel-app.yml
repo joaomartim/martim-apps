@@ -41,17 +41,17 @@ releaseNotes: >-
       - use gd if imagick is not available (c43b08a)
 
   Full release notes can be found at https://github.com/ellite/Wallos/releases
-developer: WallOS
-website: https://github.com/ellite/Wallos
+developer: João Martim
+website: https://github.com/joaomartim
 dependencies: []
-repo: https://github.com/ellite/Wallos
-support: https://github.com/ellite/Wallos/issues
+repo: https://github.com/joaomartim/martim-apps
+support: https://github.com/joaomartim/martim-apps/issues
 ports: "8282:80/tcp"
 gallery:
-  - martim-wallos\1.jpg
-  - martim-wallos\2.jpg
-  - martim-wallos\3.jpg
-  - martim-wallos\4.jpg
+  - martim-wallos/1.jpg
+  - martim-wallos/2.jpg
+  - martim-wallos/3.jpg
+  - martim-wallos/4.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
