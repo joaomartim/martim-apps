@@ -5,7 +5,7 @@ tagline: Subscription management, with graphical support and more.
 icon: https://raw.githubusercontent.com/ellite/Wallos/main/images/siteicons/wallos.png
 category: Finances
 version: "latest"
-port: 8282
+port: "8282:80/tcp"
 description: >-
   Introduction:
 
