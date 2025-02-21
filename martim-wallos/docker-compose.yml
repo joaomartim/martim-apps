@@ -2,7 +2,7 @@ services:
   app_proxy:
       environment:
         APP_HOST: martim-wallos_web_1
-        APP_PORT: 8080:80
+        APP_PORT: 8080
         PROXY_AUTH_ADD: "false"
   web:
     image: bellamy/wallos:latest
