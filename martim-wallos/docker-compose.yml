@@ -5,7 +5,6 @@ services:
         APP_PORT: 8282
         PROXY_AUTH_ADD: "false"
   wallos:
-    container_name: wallos
     image: bellamy/wallos:latest
     ports:
       - "8282:80/tcp"
