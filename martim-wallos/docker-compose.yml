@@ -6,8 +6,6 @@ services:
         PROXY_AUTH_ADD: "false"
   web:
     image: bellamy/wallos:latest
-    ports:
-      - "8282:80/tcp"
     environment:
       TZ: 'Atlantic/Madeira'
     # Volumes store your data between container upgrades
