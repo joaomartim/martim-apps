@@ -10,7 +10,7 @@ services:
     image: bellamy/wallos:latest
     ports:
       # - "8282:80/tcp"
-      - target: 8282:80
+      - target: 8282
         published: 8282
         protocol: tcp
         mode: host
