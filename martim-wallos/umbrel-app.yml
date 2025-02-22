@@ -5,7 +5,7 @@ tagline: Subscription management, with graphical support and more.
 icon: https://i.imgur.com/ueL8cwN.png
 category: Finances
 version: "latest"
-port: 8282
+port: 8282:80
 description: >-
   Introduction:
 
